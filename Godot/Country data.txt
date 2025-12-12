@@ -1,0 +1,57 @@
+Fiji:none
+Tanzania:burundi,democratic republic of the congo,kenya,malawi,mozambique,rwanda,uganda,zambia
+Western Sahara:algeria,mauritania,morocco
+Canada:united states of america
+United States of America:canada,mexico
+Kazakhstan:china,kyrgyzstan,russia,turkmenistan,uzbekistan
+Uzbekistan:afghanistan,kazakhstan,kyrgyzstan,tajikistan,turkmenistan
+Papua New Guinea:indonesia
+Indonesia:malaysia,papua new guinea,east timor
+Argentina:bolivia,brazil,chile,paraguay,uruguay
+Chile:argentina,bolivia,peru
+Democratic Republic of the Congo:angola,burundi,central african republic,republic of the congo,rwanda,south sudan,tanzania,uganda,zambia
+Somalia:ethiopia,kenya,somaliland
+Kenya:ethiopia,somalia,south sudan,tanzania,uganda
+Sudan:chad,egypt,eritrea,libya,south sudan,ethiopia
+Chad:cameroon,central african republic,libya,niger,nigeria,sudan
+Haiti:dominican republic
+Dominican Republic:haiti
+Russia:azerbaijan,belarus,china,estonia,finland,georgia,kazakhstan,north korea,latvia,lithuania,mongolia,norway,poland,ukraine
+The Bahamas:none
+Falkland Islands:none
+Norway:finland,sweden,russia
+Greenland:canada
+French Southern and Antarctic Lands:none
+East Timor:malaysia
+South Africa:botswana,lesotho,mozambique,namibia,eswatini,zimbabwe
+Lesotho:south africa
+Mexico:belize,guatemala,united states of america
+Uruguay:argentina,brazil
+Brazil:argentina,bolivia,colombia,france,uruguay,paraguay,guyana,suriname
+Bolivia:argentina,brazil,chile,paraguay,peru
+Peru:bolivia,brazil,chile,colombia,ecuador
+Colombia:brazil,ecuador,panama,peru,venezuela
+Panama:colombia,costa rica
+Costa Rica:nicaragua,panama
+Nicaragua:costa rica,honduras
+Honduras:guatemala,el salvador,nicaragua
+El Salvador:guatemala,honduras
+Guatemala:belize,el salvador,honduras,mexico
+Belize:guatemala,mexico
+Venezuela:brazil,colombia,guyana
+Guyana:brazil,suriname,venezuela
+Suriname:brazil,france,guyana
+France:belgium,germany,italy,luxembourg,spain,switzerland,suriname,brazil
+Ecuador:colombia,peru
+Puerto Rico:none
+Jamaica:none
+Cuba:none
+Zimbabwe:botswana,mozambique,south africa,zambia
+Botswana:namibia,south africa,zambia,zimbabwe
+Namibia:angola,botswana,south africa,zambia
+Senegal:gambia,guinea,guinea-bissau,mali,mauritania
+Mali:algeria,burkina faso,ivory coast,guinea,mauritania,niger,senegal
+Mauritania:algeria,mali,morocco,senegal
+Benin:burkina faso,niger,nigeria,togo
+Niger:algeria,benin,burkina faso,chad,libya,mali,nigeria
+Nigeria:benin,cameroon,chad,niger

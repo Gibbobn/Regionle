@@ -1,0 +1,162 @@
+[gd_scene load_steps=2 format=3 uid="uid://bx8iq2551yqgf"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_r57g2"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_r57g2")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -165.143
+offset_top = -98.143
+offset_right = -165.143
+offset_bottom = -98.143
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.286, 0.286)
+
+[node name="LineEdit" type="LineEdit" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25
+anchor_top = 0.85
+anchor_right = 0.75
+anchor_bottom = 0.95
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 16
+placeholder_text = "Enter a country name:"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+z_index = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.25
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 25
+theme_override_font_sizes/bold_font_size = 25
+bbcode_enabled = true
+text = "[center]What are all the countries bordering[/center]"
+fit_content = true
+
+[node name="Wintext" type="RichTextLabel" parent="Control"]
+modulate = Color(1, 1, 0, 1)
+z_index = 1
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -35.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 25
+theme_override_font_sizes/bold_font_size = 25
+bbcode_enabled = true
+text = "[center]You win![/center]"
+fit_content = true
+
+[node name="Incorrect" type="RichTextLabel" parent="Control"]
+modulate = Color(1, 0.00392157, 0, 1)
+z_index = 1
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -35.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 25
+theme_override_font_sizes/bold_font_size = 25
+bbcode_enabled = true
+text = "[center]Incorrect[/center]"
+fit_content = true
+
+[node name="Correct" type="RichTextLabel" parent="Control"]
+modulate = Color(0, 1, 0, 1)
+z_index = 1
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -35.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 25
+theme_override_font_sizes/bold_font_size = 25
+bbcode_enabled = true
+text = "[center]Correct![/center]"
+fit_content = true
+
+[node name="Nonexistent" type="RichTextLabel" parent="Control"]
+modulate = Color(0.517184, 0.517184, 0.517184, 1)
+z_index = 1
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -35.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 25
+theme_override_font_sizes/bold_font_size = 25
+bbcode_enabled = true
+text = "[center]Not in my list of countries sorry :([/center]"
+fit_content = true
+
+[node name="Timer" type="Timer" parent="Control"]
+wait_time = 1.5
+one_shot = true
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+offset_right = 130.0
+grow_vertical = 0
+text = "Return to home"
+
+[node name="Replay" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -60.0
+offset_top = -31.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Replay"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(0, -5)
+zoom = Vector2(3.15, 3.15)
+
+[connection signal="text_submitted" from="Control/LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="timeout" from="Control/Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="Control/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Control/Replay" to="." method="_on_replay_pressed"]

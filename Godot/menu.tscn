@@ -1,0 +1,75 @@
+[gd_scene load_steps=6 format=3 uid="uid://dfct5bd74reke"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_cdt7e"]
+[ext_resource type="Script" path="res://oppa_earth.gd" id="1_kgrlq"]
+[ext_resource type="PackedScene" uid="uid://dmyv6yvjh5qwq" path="res://earth.glb" id="2_pfbei"]
+[ext_resource type="Script" path="res://earth.gd" id="3_dmmqk"]
+[ext_resource type="Script" path="res://zoom.gd" id="4_1wqbp"]
+
+[node name="Menu" type="Node3D"]
+script = ExtResource("1_cdt7e")
+
+[node name="OppaEarth" type="Node3D" parent="."]
+script = ExtResource("1_kgrlq")
+
+[node name="Sketchfab_Scene" parent="OppaEarth" instance=ExtResource("2_pfbei")]
+script = ExtResource("3_dmmqk")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 256)
+script = ExtResource("4_1wqbp")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="DailyButton" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25
+anchor_top = 0.8
+anchor_right = 0.75
+anchor_bottom = 0.8
+offset_top = -31.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Play Daily"
+
+[node name="Practice" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25
+anchor_top = 0.8
+anchor_right = 0.75
+anchor_bottom = 0.8
+offset_top = 19.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Practice"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.75
+offset_left = -1.0
+offset_bottom = 35.0
+rotation = 0.383972
+scale = Vector2(2, 2)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 25
+theme_override_font_sizes/bold_font_size = 25
+bbcode_enabled = true
+text = "[center]No AI used![/center]"
+fit_content = true
+
+[connection signal="pressed" from="Control/DailyButton" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Control/Practice" to="." method="_on_practice_pressed"]

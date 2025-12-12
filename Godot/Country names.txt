@@ -1,0 +1,177 @@
+fiji,fiji,fj
+tanzania,tanz.,tz
+western sahara,w. sah.,ws
+canada,can.,ca
+united states of america,u.s.a.,us,usa,states,united states,america
+kazakhstan,kaz.,kz
+uzbekistan,uzb.,uz
+papua new guinea,p.n.g.,pg
+indonesia,indo.,indo
+argentina,arg.,ar
+chile,chile,cl
+democratic republic of the congo,d.r.c.,drc
+somalia,som.,so
+kenya,ken.,ke
+sudan,sudan,sd
+chad,chad,td
+haiti,haiti,ht
+dominican republic,dom. rep.,do
+russia,rus.,rus
+the bahamas,bhs.,bs
+falkland islands,flk. is.,fk
+norway,nor.,n
+greenland,grlnd.,gl
+french southern and antarctic lands,fr. s.a.l.,tf
+east timor,t.l.,tl,timor leste,timor-leste
+south africa,s.af.,za
+lesotho,les.,ls
+mexico,mex.,mx
+uruguay,ury.,uy
+brazil,brazil,br
+bolivia,bolivia,bo
+peru,peru,pe
+colombia,col.,co
+panama,pan.,pa
+costa rica,c.r.,cr
+nicaragua,nic.,ni
+honduras,hond.,hn
+el salvador,el. s.,sv
+guatemala,guat.,gt
+belize,belize,bz
+venezuela,ven.,ve
+guyana,guy.,gy
+suriname,sur.,sr
+france,fr.,f
+ecuador,ecu.,ec
+puerto rico,p.r.,pr
+jamaica,jam.,j
+cuba,cuba,cu
+zimbabwe,zimb.,zw
+botswana,bwa.,bw
+namibia,nam.,na
+senegal,sen.,sn
+mali,mali,ml
+mauritania,mrt.,mr
+benin,benin,bj
+niger,niger,ne
+nigeria,nigeria,ng
+cameroon,cam.,cm
+togo,togo,tg
+ghana,ghana,gh
+ivory coast,i.c.,ci
+guinea,gin.,gn
+guinea-bissau,gnb.,gw
+liberia,liberia,lr
+sierra leone,s.l.,sl
+burkina faso,b.f.,bf
+central african republic,c.a.r.,cf
+republic of the congo,rep. congo,cg,congo
+gabon,gabon,ga
+equatorial guinea,eq. g.,gq
+zambia,zambia,zm
+malawi,mal.,mw
+mozambique,moz.,mz
+eswatini,esw.,es
+angola,ang.,ao
+burundi,bur.,bi
+israel,isr.,is
+lebanon,leb.,lb
+madagascar,mad.,mg
+palestine,pal.,pal
+gambia,gambia,gm
+tunisia,tun.,tn
+algeria,alg.,dz
+jordan,jord.,j
+united arab emirates,u.a.e.,uae
+qatar,qatar,qa
+kuwait,kwt.,kw
+iraq,iraq,irq
+oman,oman,om
+vanuatu,van.,vu
+cambodia,camb.,kh
+thailand,thai.,th
+laos,laos,la
+myanmar,myan.,mm
+vietnam,viet.,vn
+north korea,n.k.,kp
+south korea,s.k.,kr
+mongolia,mong.,mn
+india,india,ind
+bangladesh,bang.,bd
+bhutan,bhutan,bt
+nepal,nepal,np
+pakistan,pak.,pk
+afghanistan,afg.,af
+tajikistan,tjk.,tj
+kyrgyzstan,kgz.,kg
+turkmenistan,turkm.,tm
+iran,iran,irn
+syria,syria,syr
+armenia,arm.,arm
+sweden,swe.,s
+belarus,bela.,by
+ukraine,ukr.,ua
+poland,pol.,pl
+austria,aust.,a
+hungary,hun.,hu
+moldova,mda.,md
+romania,rom.,ro
+lithuania,lith.,lt
+latvia,lat.,lv
+estonia,est.,est
+germany,ger.,d
+bulgaria,bulg.,bg
+greece,greece,gr
+turkey,tur.,tr
+albania,alb.,al
+croatia,cro.,hr
+switzerland,switz.,ch
+luxembourg,lux.,l
+belgium,belg.,b
+netherlands,neth.,nl
+portugal,port.,p
+spain,sp.,e
+ireland,ire.,irl
+new caledonia,new c.,nc
+solomon islands,s. is.,sb
+new zealand,n.z.,nz
+australia,auz.,au
+sri lanka,sri l.,lk
+china,china,cn
+taiwan,taiwan,tw
+italy,italy,i
+denmark,den.,dk
+united kingdom,u.k.,gb,uk
+iceland,iceland,is
+azerbaijan,aze.,az
+georgia,geo.,ge
+philippines,phil.,ph
+malaysia,malay.,my
+brunei,brunei,bn
+slovenia,slo.,slo
+finland,fin.,fin
+slovakia,svk.,sk
+czechia,cz.,cz
+eritrea,erit.,er
+japan,japan,j
+paraguay,para.,py
+yemen,yem.,ye
+saudi arabia,saud.,sa
+antarctica,ant.,aq
+northern cyprus,n. cy.,cn
+cyprus,cyp.,cy
+morocco,mor.,ma
+egypt,egypt,eg
+libya,libya,ly
+ethiopia,eth.,et
+djibouti,dji.,dj
+somaliland,solnd.,sl
+uganda,uga.,ug
+rwanda,rwa.,rw
+bosnia and herzegovina,b.h.,bih
+north macedonia,n. mac.,nm
+republic of serbia,serb.,rs
+montenegro,mont.,me
+kosovo,kos.,ko
+trinidad and tobago,tr.t.,tt
+south sudan,s. sud.,ss
